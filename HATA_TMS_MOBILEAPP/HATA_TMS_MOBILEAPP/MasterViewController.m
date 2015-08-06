@@ -18,7 +18,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        self.clearsSelectionOnViewWillAppear = NO;
+        self.clearsSelectionOnViewWillAppear = NO;adsss
         self.preferredContentSize = CGSizeMake(320.0, 600.0);
     }
 }
